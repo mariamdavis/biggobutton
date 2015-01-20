@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
      button.setOnClickListener(new View.OnClickListener(){
         public void onClick (View v){
             count++;
-            button.setText("You have pushed me " + count + "times!");
+            button.setText("You have pushed me " + count + " times!");
          }
       });
     }
